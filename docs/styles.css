@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Fundo preto */
+    color: #f7d358; /* Texto amarelo claro */
+}
+
+.header {
+    background-color: #ffcc00; /* Amarelo mais escuro */
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333; /* Texto preto */
+    position: relative;
+}
+
+.logo {
+    max-width: 100px; /* Tamanho máximo da logo */
+    margin-bottom: 10px; /* Espaço entre a logo e o texto */
+}
+
+.navbar {
+    background-color: #444; /* Fundo cinza escuro */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #f7d358; /* Texto amarelo claro */
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffcc00; /* Fundo amarelo escuro ao passar o mouse */
+    color: #333; /* Texto preto ao passar o mouse */
+}
+
+.city-background {
+    background-image: url('https://example.com/yellow-buildings.jpg'); /* Substitua com a URL da sua imagem de prédios */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.city-background::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6); /* Camada preta transparente */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: #444; /* Fundo cinza escuro */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.footer {
+    background-color: #ffcc00; /* Amarelo mais escuro */
+    padding: 10px;
+    text-align: center;
+    color: #333; /* Texto preto */
+}
+
+.building {
+    background-color: #ffcc00;
+    border: 2px solid #333;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-link {
+    color: #ffcc00; /* Cor do link em amarelo */
+}
+
+.contact-link:hover {
+    color: #f7d358; /* Cor do link ao passar o mouse em amarelo claro */
+}
+
+h2 {
+    color: #ffcc00;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 1px;
+}
+
+ creditos p {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
